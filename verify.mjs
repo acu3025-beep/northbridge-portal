@@ -1,0 +1,25 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import assert from 'node:assert/strict';
+import {fileURLToPath} from 'node:url';
+const root=path.dirname(fileURLToPath(import.meta.url));
+const d=JSON.parse(fs.readFileSync(path.join(root,'data.json'),'utf8'));
+assert.equal(d.payments.length,14);
+assert.equal(d.payments.reduce((s,p)=>s-p.amount,0),14700);
+assert.equal(new Set(d.payments.map(p=>p.reference)).size,14);
+assert(d.payments.every(p=>p.amount===-1050&&p.bankLoanReference==='1130960'&&p.page>0));
+assert.equal(d.disbursement.date,'2025-08-22');assert.equal(d.disbursement.amount,35000);
+assert.equal(d.settlementSchedule.reduce((s,p)=>s+p.amount,0),39200);
+assert.equal(d.principal+d.monthlyInterest+3150,d.settlement);
+assert.equal(d.contractSchedule.length,24);
+assert(d.contractSchedule.every(p=>p.principalPaid===0&&p.outstandingPrincipal===35000));
+assert.equal(d.contractSchedule.reduce((s,p)=>s+p.interest,0),25200);
+assert.equal(d.documents.length,4);
+for(const doc of d.documents){const file=fs.readFileSync(path.join(root,doc.path));assert.equal(file.length,doc.bytes);assert.equal(crypto.createHash('sha256').update(file).digest('hex'),doc.sha256)}
+const manifest=JSON.parse(fs.readFileSync(path.join(root,'manifest.webmanifest'),'utf8'));
+assert.equal(manifest.start_url,'./');assert.equal(manifest.scope,'./');assert.equal(manifest.display,'standalone');
+for(const icon of manifest.icons)assert(fs.existsSync(path.join(root,icon.src)));
+const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
+for(const match of html.matchAll(/(?:src|href)="\.\/([^"#]+)"/g))assert(fs.existsSync(path.join(root,match[1])),match[1]);
+console.log('PASS: amounts, 14 unique source references, 24 contract dates, settlement totals, four original document hashes, app manifest and local asset links.');

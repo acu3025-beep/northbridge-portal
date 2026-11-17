@@ -1,0 +1,411 @@
+{
+  "brand": "Northbridge Capital Ltd.",
+  "client": "Mahziar Black",
+  "contractReference": "98127456",
+  "originalAgreementDate": "2025-08-21",
+  "asOf": "2026-11-16",
+  "principal": 35000,
+  "monthlyInterest": 1050,
+  "settlement": 39200,
+  "settlementStatus": "Not confirmed",
+  "relationshipBasis": "User states the bank transactions relate to the Northbridge arrangement. The bank uses loan 1130960; the settlement agreement uses 98127456. This relationship is user-declared, not independently verified.",
+  "documents": [
+    {
+      "title": "Corrected ING statement",
+      "path": "documents/NL67INGB0665938152_25-07-2025_16-11-2026.pdf.pdf.pdf",
+      "originalName": "NL67INGB0665938152_25-07-2025_16-11-2026.pdf.pdf.pdf",
+      "sha256": "84db0970762e80fc5f6e4ff22a62444495c22ea2092699b95959dc9f5fcae8df",
+      "bytes": 18998262,
+      "status": "available",
+      "kind": "bank"
+    },
+    {
+      "title": "Early settlement agreement",
+      "path": "documents/Early Settlement and Termination Agreement.pdf",
+      "originalName": "Early Settlement and Termination Agreement.pdf",
+      "sha256": "da92992f81d371f35c170f10464bdecaaff2345ee22746c429d81b45e8883032",
+      "bytes": 136927,
+      "status": "available",
+      "kind": "settlement"
+    },
+    {
+      "title": "Original loan contract",
+      "path": "documents/Loan98127456.pdf",
+      "originalName": "Loan98127456.pdf",
+      "sha256": "7d863ff063192006d776086ca9c23605420a18e0745418e0d91f4ee10037ee5f",
+      "bytes": 4708,
+      "status": "available",
+      "kind": "contract"
+    },
+    {
+      "title": "Signed settlement photograph",
+      "path": "documents/photo_2026-11-17_18-27-09.jpg",
+      "originalName": "photo_2026-11-17_18-27-09.jpg",
+      "sha256": "1e22b471eec91769a2632a84b64978f3e94b77039678ea521dd713da6b00c76b",
+      "bytes": 529327,
+      "status": "available",
+      "kind": "signed"
+    }
+  ],
+  "payments": [
+    {
+      "date": "2026-10-26",
+      "amount": -1050,
+      "currency": "EUR",
+      "page": 8,
+      "reference": "2720124",
+      "bankCounterparty": "DERDENGELDENCREDIT",
+      "bankLoanReference": "1130960",
+      "iban": "NL82ABNA0448254999",
+      "sourceDocument": "documents/NL67INGB0665938152_25-07-2025_16-11-2026.pdf.pdf.pdf",
+      "classification": "Selected monthly payment; interest allocation is based on the Northbridge settlement terms, not a bank classification."
+    },
+    {
+      "date": "2026-09-25",
+      "amount": -1050,
+      "currency": "EUR",
+      "page": 18,
+      "reference": "2656331",
+      "bankCounterparty": "DERDENGELDEN CREDIT",
+      "bankLoanReference": "1130960",
+      "iban": "NL82ABNA0448254999",
+      "sourceDocument": "documents/NL67INGB0665938152_25-07-2025_16-11-2026.pdf.pdf.pdf",
+      "classification": "Selected monthly payment; interest allocation is based on the Northbridge settlement terms, not a bank classification."
+    },
+    {
+      "date": "2026-08-25",
+      "amount": -1050,
+      "currency": "EUR",
+      "page": 25,
+      "reference": "2590920",
+      "bankCounterparty": "DERDENGELDEN CREDIT",
+      "bankLoanReference": "1130960",
+      "iban": "NL82ABNA0448254999",
+      "sourceDocument": "documents/NL67INGB0665938152_25-07-2025_16-11-2026.pdf.pdf.pdf",
+      "classification": "Selected monthly payment; interest allocation is based on the Northbridge settlement terms, not a bank classification."
+    },
+    {
+      "date": "2026-07-27",
+      "amount": -1050,
+      "currency": "EUR",
+      "page": 31,
+      "reference": "2526882",
+      "bankCounterparty": "DERDENGELDEN CREDIT",
+      "bankLoanReference": "1130960",
+      "iban": "NL82ABNA0448254999",
+      "sourceDocument": "documents/NL67INGB0665938152_25-07-2025_16-11-2026.pdf.pdf.pdf",
+      "classification": "Selected monthly payment; interest allocation is based on the Northbridge settlement terms, not a bank classification."
+    },
+    {
+      "date": "2026-06-25",
+      "amount": -1050,
+      "currency": "EUR",
+      "page": 38,
+      "reference": "2465041",
+      "bankCounterparty": "DERDENGELDEN CREDIT",
+      "bankLoanReference": "1130960",
+      "iban": "NL82ABNA0448254999",
+      "sourceDocument": "documents/NL67INGB0665938152_25-07-2025_16-11-2026.pdf.pdf.pdf",
+      "classification": "Selected monthly payment; interest allocation is based on the Northbridge settlement terms, not a bank classification."
+    },
+    {
+      "date": "2026-05-25",
+      "amount": -1050,
+      "currency": "EUR",
+      "page": 46,
+      "reference": "2400026",
+      "bankCounterparty": "DERDENGELDEN CREDIT",
+      "bankLoanReference": "1130960",
+      "iban": "NL82ABNA0448254999",
+      "sourceDocument": "documents/NL67INGB0665938152_25-07-2025_16-11-2026.pdf.pdf.pdf",
+      "classification": "Selected monthly payment; interest allocation is based on the Northbridge settlement terms, not a bank classification."
+    },
+    {
+      "date": "2026-04-29",
+      "amount": -1050,
+      "currency": "EUR",
+      "page": 52,
+      "reference": "2341186",
+      "bankCounterparty": "DERDENGELDEN CREDIT",
+      "bankLoanReference": "1130960",
+      "iban": "NL82ABNA0448254999",
+      "sourceDocument": "documents/NL67INGB0665938152_25-07-2025_16-11-2026.pdf.pdf.pdf",
+      "classification": "Selected monthly payment; interest allocation is based on the Northbridge settlement terms, not a bank classification."
+    },
+    {
+      "date": "2026-03-25",
+      "amount": -1050,
+      "currency": "EUR",
+      "page": 73,
+      "reference": "2281042",
+      "bankCounterparty": "DERD GELD LENDER SPENDER",
+      "bankLoanReference": "1130960",
+      "iban": "NL82ABNA0448254999",
+      "sourceDocument": "documents/NL67INGB0665938152_25-07-2025_16-11-2026.pdf.pdf.pdf",
+      "classification": "Selected monthly payment; interest allocation is based on the Northbridge settlement terms, not a bank classification."
+    },
+    {
+      "date": "2026-02-26",
+      "amount": -1050,
+      "currency": "EUR",
+      "page": 92,
+      "reference": "2224179",
+      "bankCounterparty": "DERD GELD LENDER SPENDER",
+      "bankLoanReference": "1130960",
+      "iban": "NL82ABNA0448254999",
+      "sourceDocument": "documents/NL67INGB0665938152_25-07-2025_16-11-2026.pdf.pdf.pdf",
+      "classification": "Selected monthly payment; interest allocation is based on the Northbridge settlement terms, not a bank classification."
+    },
+    {
+      "date": "2026-01-26",
+      "amount": -1050,
+      "currency": "EUR",
+      "page": 107,
+      "reference": "2163981",
+      "bankCounterparty": "DERD GELD LENDER SPENDER",
+      "bankLoanReference": "1130960",
+      "iban": "NL82ABNA0448254999",
+      "sourceDocument": "documents/NL67INGB0665938152_25-07-2025_16-11-2026.pdf.pdf.pdf",
+      "classification": "Selected monthly payment; interest allocation is based on the Northbridge settlement terms, not a bank classification."
+    },
+    {
+      "date": "2025-12-29",
+      "amount": -1050,
+      "currency": "EUR",
+      "page": 120,
+      "reference": "2109438",
+      "bankCounterparty": "DERD GELD LENDER SPENDER",
+      "bankLoanReference": "1130960",
+      "iban": "NL82ABNA0448254999",
+      "sourceDocument": "documents/NL67INGB0665938152_25-07-2025_16-11-2026.pdf.pdf.pdf",
+      "classification": "Selected monthly payment; interest allocation is based on the Northbridge settlement terms, not a bank classification."
+    },
+    {
+      "date": "2025-11-25",
+      "amount": -1050,
+      "currency": "EUR",
+      "page": 134,
+      "reference": "2052971",
+      "bankCounterparty": "DERD GELD LENDER SPENDER",
+      "bankLoanReference": "1130960",
+      "iban": "NL82ABNA0448254999",
+      "sourceDocument": "documents/NL67INGB0665938152_25-07-2025_16-11-2026.pdf.pdf.pdf",
+      "classification": "Selected monthly payment; interest allocation is based on the Northbridge settlement terms, not a bank classification."
+    },
+    {
+      "date": "2025-10-27",
+      "amount": -1050,
+      "currency": "EUR",
+      "page": 152,
+      "reference": "1993839",
+      "bankCounterparty": "DERD GELD LENDER SPENDER",
+      "bankLoanReference": "1130960",
+      "iban": "NL82ABNA0448254999",
+      "sourceDocument": "documents/NL67INGB0665938152_25-07-2025_16-11-2026.pdf.pdf.pdf",
+      "classification": "Selected monthly payment; interest allocation is based on the Northbridge settlement terms, not a bank classification."
+    },
+    {
+      "date": "2025-09-25",
+      "amount": -1050,
+      "currency": "EUR",
+      "page": 172,
+      "reference": "1920049",
+      "bankCounterparty": "DERD GELD LENDER SPENDER",
+      "bankLoanReference": "1130960",
+      "iban": "NL82ABNA0448254999",
+      "sourceDocument": "documents/NL67INGB0665938152_25-07-2025_16-11-2026.pdf.pdf.pdf",
+      "classification": "Selected monthly payment; interest allocation is based on the Northbridge settlement terms, not a bank classification."
+    }
+  ],
+  "disbursement": {
+    "date": "2025-08-22",
+    "amount": 35000,
+    "page": 188,
+    "bankCounterparty": "DERD GELD LENDER SPENDER",
+    "bankLoanReference": "1130960",
+    "reference": "1820915"
+  },
+  "settlementSchedule": [
+    {
+      "date": "2026-11-20",
+      "label": "Principal + final interest",
+      "amount": 36050
+    },
+    {
+      "date": "2026-11-30",
+      "label": "Early termination charge",
+      "amount": 3150
+    }
+  ],
+  "contractSchedule": [
+    {
+      "month": 1,
+      "date": "2025-09-25",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 2,
+      "date": "2025-10-20",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 3,
+      "date": "2025-11-21",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 4,
+      "date": "2025-12-20",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 5,
+      "date": "2026-01-21",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 6,
+      "date": "2026-02-20",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 7,
+      "date": "2026-03-21",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 8,
+      "date": "2026-04-20",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 9,
+      "date": "2026-05-21",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 10,
+      "date": "2026-06-20",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 11,
+      "date": "2026-07-21",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 12,
+      "date": "2026-08-20",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 13,
+      "date": "2026-09-18",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 14,
+      "date": "2026-10-18",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 15,
+      "date": "2026-11-18",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 16,
+      "date": "2026-12-18",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 17,
+      "date": "2027-01-18",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 18,
+      "date": "2027-02-18",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 19,
+      "date": "2027-03-18",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 20,
+      "date": "2027-04-18",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 21,
+      "date": "2027-05-18",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 22,
+      "date": "2027-06-18",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 23,
+      "date": "2027-07-18",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    },
+    {
+      "month": 24,
+      "date": "2027-08-18",
+      "interest": 1050,
+      "principalPaid": 0,
+      "outstandingPrincipal": 35000
+    }
+  ],
+  "arrangementNature": "Purchase agreement (structured financial arrangement); the original contract states this is not a traditional loan."
+}
