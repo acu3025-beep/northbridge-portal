@@ -1,5 +1,5 @@
 const PREFIX='northbridge-'+new URL(self.registration.scope).pathname+'-';
-const CACHE=PREFIX+'v1';
+const CACHE=PREFIX+'v2';
 const CORE=['./','./index.html','./styles.css','./app.js','./data.json','./manifest.webmanifest','./assets/icon-180.png','./assets/icon-192.png','./assets/icon-512.png','./assets/logo.svg'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith(PREFIX)&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});

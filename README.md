@@ -52,7 +52,7 @@ Other transfers, including large additional payments, are excluded only from the
 
 Serve this directory over HTTP, for example `python -m http.server 8080` if Python is installed, then open `http://localhost:8080`. Opening `index.html` directly as a local file cannot load the JSON or register the service worker. Production PWA installation requires HTTPS; GitHub Pages supplies this.
 
-The app uses relative links and hash navigation, so it also works under a GitHub repository subpath without route rewrites. No third-party fonts, scripts, analytics, or network services are used.
+The app uses relative links and hash navigation, so it also works under a GitHub repository subpath without route rewrites. No analytics are used. The in-portal PDF viewer loads pinned Mozilla PDF.js 5.4.624 from jsDelivr; PDF files are read from this site and are not uploaded to that CDN. The viewer needs an internet connection.
 
 ## Updating records
 
@@ -64,3 +64,7 @@ This is the public static archive requested by the owner. It has no login or acc
 
 - [GitHub: Configure a Pages publishing source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 - [Apple: Turn a website into an app in Safari on iPhone](https://support.apple.com/en-az/guide/iphone/iphea86e5236/26/ios/26)
+
+## Document navigation update
+
+View opens every document inside the portal with a sticky Back button and original download link. PDFs have page navigation and fit-width/150%/200% zoom; the signed photo is shown inline. Browser Back also returns to the prior portal view. Original files and recorded financial data are unchanged.
